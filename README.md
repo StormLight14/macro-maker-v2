@@ -18,11 +18,11 @@ The syntax for creating macros is kind of messy, so feel free to modify the code
 To start, there are 2 main different things you can create in the macro file: actions and functions. Actions are just things like keys and mouse buttons, while functions are more complex stuff the macro can do. 
 
 Full list of special actions: 
-```
+```py
 "SPACE", "LCTRL", "LALT", "LSHIFT", "CTRL", "RCTRL", "RALT", "RSHIFT", "TAB", "ESC", "ESCAPE", "ENTER", "DEL", "DELETE", "LCLICK", "RCLICK", "MCLICK",
 "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12"
 ```
 Full list of functions: 
-```
+```py
 "DELAY", "HOLD", "WRITE", "HOTKEY", "REPEAT"
 ```
