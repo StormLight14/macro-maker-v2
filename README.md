@@ -4,6 +4,15 @@ Complete revamp of my original macro creator, now uses `pyautogui` instead of `p
 ## Prerequisites
 If you haven't already, download Python 3 from https://python.org, or just use something like a package manager for a Linux distribution.
 Either clone the code with `git clone https://github.com/StormLight14/macro-maker-v2.git` or click on "Code" > "Download Zip" and extract the zip.
+Now, install `pyautogui`.
+
+Windows:
+
+`python -m pip install pyautogui`
+
+OS X, Linux:
+
+`pip3 install pyautogui`
 
 ## Running
 Inside of the folder with the code, run main.py. `python3 main.py`
