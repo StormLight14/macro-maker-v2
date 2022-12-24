@@ -1,5 +1,5 @@
 # Macro Maker V2
-Complete revamp of my original macro creator, now uses pyautogui instead of pynput.
+Complete revamp of my original macro creator, now uses `pyautogui` instead of `pynput`.
 
 ## Prerequisites
 If you haven't already, download Python 3 from https://python.org, or just use something like a package manager for a Linux distribution.
