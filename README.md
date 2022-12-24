@@ -33,7 +33,11 @@ Every action and function is separated with commas and a space afterwards. (This
 To use special actions, you simply type them in and separate like normal. i.e: `ESC, LSHIFT, DEL`
 Functions are a bit different; they have extra syntax needed to tell them what to do. Arguments used by functions are separated with colons.
 `DELAY` Syntax: `DELAY:TimeInSeconds`
+
 `HOLD` Syntax: `HOLD:ActionType:TimeInSeconds`
+
 `WRITE` Syntax: `WRITE:CharactersToWrite`
+
 `HOTKEY` Syntax: `HOTKEY:Key1+Key2+Key3` (Doesn't have to be 3 keys)
+
 `REPEAT` Syntax: `REPEAT:RepeatTimes:DelayInSecondsPerRepeat:(ActionsAndFunctionsSeparatedWith+)` Example: `REPEAT:3:0:(WRITE:Hello World!+ENTER)`
