@@ -16,6 +16,7 @@ Here is some example syntax: `DELAY:1, REPEAT:3:0:(WRITE:Hello World!+ENTER)` Th
 The syntax for creating macros is kind of messy, so feel free to modify the code to make it fit what you want, and maybe try to contribute the changes if you think they are better than what I have.
 
 To start, there are 2 main different things you can create in the macro file: actions and functions. Actions are just things like keys and mouse buttons, while functions are more complex stuff the macro can do. 
+
 Full list of special actions: 
 ```
 "SPACE", "LCTRL", "LALT", "LSHIFT", "CTRL", "RCTRL", "RALT", "RSHIFT", "TAB", "ESC", "ESCAPE", "ENTER", "DEL", "DELETE", "LCLICK", "RCLICK", "MCLICK",
