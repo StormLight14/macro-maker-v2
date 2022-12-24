@@ -32,6 +32,7 @@ Here is an example: `DELAY:1, REPEAT:3:0:(WRITE:Hello World!+ENTER)` This will w
 Every action and function is separated with commas and a space afterwards. (This can be changed in the code.) So, if you simply want the macro to type the numbers 1 and 2 separately, you could do `1, 2`.
 To use special actions, you simply type them in and separate like normal. i.e: `ESC, LSHIFT, DEL`
 Functions are a bit different; they have extra syntax needed to tell them what to do. Arguments used by functions are separated with colons.
+
 `DELAY` Syntax: `DELAY:TimeInSeconds`
 
 `HOLD` Syntax: `HOLD:ActionType:TimeInSeconds`
