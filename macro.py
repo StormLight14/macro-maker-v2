@@ -64,12 +64,6 @@ class Macro:
                     "(", "").replace(")", "").split("+")
                 print(self.actions)
 
-                for i in range(self.repeat_count):
-                    for action in self.actions:
-                        self.action = action
-                        self.macro(self.action)
-                        sleep(self.sleep_time)
-
         self.action = self.action_split[0]
 
     def set_button(self, action):
@@ -132,4 +126,8 @@ class Macro:
             case "HOTKEY":
                 hotkey(*self.hotkeys)
             case "REPEAT":
-                pass  # what do i put here???
+                for i in range(self.repeat_count):
+                    for action in self.actions:
+                        self.action = action
+                        self.macro(self.action)
+                        sleep(self.sleep_time)
