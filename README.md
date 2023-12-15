@@ -48,6 +48,6 @@ Functions are a bit different; they have extra syntax needed to tell them what t
 
 `WRITE` Syntax: `WRITE:CharactersToWrite`
 
-`HOTKEY` Syntax: `HOTKEY:Key1+Key2+Key3` (Doesn't have to be 3 keys)
+`HOTKEY` Syntax: `HOTKEY:Key1+Key2+Key3` (Any amount of keys)
 
 `REPEAT` Syntax: `REPEAT:RepeatTimes:DelayInSecondsPerRepeat:(ActionsAndFunctionsSeparatedWith+)` Example: `REPEAT:3:0:(WRITE:Hello World!+ENTER)`
