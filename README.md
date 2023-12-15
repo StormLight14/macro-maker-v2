@@ -2,7 +2,7 @@
 Complete revamp of my original macro creator, now uses `pyautogui` instead of `pynput`.
 
 ## Prerequisites
-If you haven't already, download Python 3 from https://python.org, or just use something like a package manager for a Linux distribution.
+If you haven't already, download Python 3 from https://python.org, or use your system's package manager.
 Either clone the code with `git clone https://github.com/StormLight14/macro-maker-v2.git` or click on "Code" > "Download Zip" and extract the zip.
 Now, install `pyautogui`.
 
